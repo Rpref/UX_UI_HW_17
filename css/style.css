@@ -34,6 +34,9 @@ nav {
  }
 
  .topnav-centered  {
+  background-image: url(../images/RP\ logo_white.png);
+  background-repeat: no-repeat;
+  background-size: 54px 62px;
   float: none;
   position: absolute;
   top: 50%;
@@ -109,6 +112,7 @@ h1 {
   z-index: 2;
   background-color: #434053;
   padding: 25%;
+  margin-bottom: 1%;
   background-color: none;
   background-position: center;
   text-align: center;
@@ -118,13 +122,24 @@ h1 {
   font-family: 'Montserrat'
 }
 
+.linkedInIcon {
+  background-image: url(../images/linkedin\ logo.png);
+  margin-left: 47%;
+  margin-bottom: 10%;
+  height: 48px;
+  width: 48px;
+}
+
 .name, .copyright, .rightsReserved {
     display: inline-block;
     text-align: center;
-    padding:5px;
+    padding:0;
     margin-left: 0%;
 }
 
+.email {
+  margin-bottom: 8%;
+}
 
 
 
