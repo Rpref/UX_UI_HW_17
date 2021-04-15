@@ -60,7 +60,7 @@ body, html {
 
 /* The hero image */
 .hero-image {
-background-image: linear-gradient(rgba(26.27%, 25.1%, 32.55%, 0.5), rgba(26.27%, 25.1%, 32.55%, 0.5)), url(../images/Headshot_black\ and\ white.png);
+background-image: linear-gradient(rgba(12.5%, 12.2%, 15.3%, 0.35), rgba(12.5, 12.2, 15.3, 0.35)), url(../images/Headshot_black\ and\ white.png);
 height: 100%;
 width: 100%;
 background-position: center;
