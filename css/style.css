@@ -1,0 +1,139 @@
+
+body{
+  margin:0px;
+  margin-top:60px;
+  padding: 0px;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    top:0;
+    width: 100%;
+    height: 5%;
+    background-color: #434053;
+    overflow: auto;
+    height: 76px;
+}
+
+.left-links{
+    flex:1 1 200px;
+ }
+
+.links {
+    display: inline-block;
+    text-align: center;
+    padding: 25px;
+    margin-left: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Montserrat';
+ }
+
+ .topnav-centered  {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ 
+#logo {
+  width: 54px;
+  height: 62px;
+}
+
+.links:hover {
+  border-bottom: 2px solid white;
+}
+.selected{
+  border-bottom: 2px solid white;
+}
+
+body, html {
+  height: 100%;
+  margin-top: 2%;
+}
+
+/* The hero image */
+.hero-image {
+background-image: linear-gradient(rgba(26.27%, 25.1%, 32.55%, 0.5), rgba(26.27%, 25.1%, 32.55%, 0.5)), url(../images/Headshot_black\ and\ white.png);
+height: 100%;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+z-index: -1;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+text-align: left;
+position: fixed;
+z-index: 1;
+top: 25%;
+left: 15%;
+transform: translate(0%, 0%);
+text-decoration: none;
+font-family: 'Montserrat';
+}
+
+h1 {
+  font-size: 48px;
+  width: 50%;
+  color: white;
+  padding-bottom: 2.5%;
+}
+
+.bio {
+  font-size: 24px;
+  color: white;
+  width: 47.5%;
+  padding-bottom: 1%;
+}
+
+.linkToMore {
+  font-size: 14px;
+  color: #3EE294;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 56%;
+}
+
+.footer {
+  position: relative;
+  z-index: 2;
+  background-color: #434053;
+  padding: 25%;
+  background-color: none;
+  background-position: center;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Montserrat'
+}
+
+.name, .copyright, .rightsReserved {
+    display: inline-block;
+    text-align: center;
+    padding:5px;
+    margin-left: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
