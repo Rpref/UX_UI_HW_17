@@ -34,9 +34,6 @@ nav {
  }
 
  .topnav-centered  {
-  background-image: url(../images/RP\ logo_white.png);
-  background-repeat: no-repeat;
-  background-size: 54px 62px;
   float: none;
   position: absolute;
   top: 50%;
